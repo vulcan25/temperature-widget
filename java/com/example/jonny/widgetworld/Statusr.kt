@@ -22,11 +22,6 @@ import kotlin.text.Typography.quote
 class Statusr : AppWidgetProvider() {
 
     override fun onUpdate(context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray) {
-        // There may be multiple widgets active, so update all of them
-        //        for (appWidgetId in appWidgetIds) {
-        //            updateAppWidget(context, appWidgetManager, appWidgetId)
-        //            Toast.makeText(context, "Widget has been updated! ", Toast.LENGTH_SHORT).show();
-        //        }
 
         GetData.widget_text(object: GetData.WidgetTextCallback{
             override fun onTextLoaded(widgetText: String) {
