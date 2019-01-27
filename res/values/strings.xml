@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WidgetWorld</string>
+    <string name="appwidget_text">fin it</string>
+    <string name="add_widget">Add widget</string>
+    <string name="last_update">:never:</string>
+</resources>
