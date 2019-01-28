@@ -6,7 +6,7 @@ Endpoint returns this, with emojis indicating the health of the Pi:
 
 A chilly 2.5 degress at my house, is displayed like this on the phone:
 
-![screencap][https://i.imgur.com/CITFa0u.png]
+![screencap](https://i.imgur.com/CITFa0u.png)
 
 The guy with the bandage means the Pi aint healthy, but that's another story.
 
